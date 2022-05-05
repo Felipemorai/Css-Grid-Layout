@@ -8,6 +8,20 @@ body {
     font-family: 'Vollkorn', Georgia, serif;
 }
 
+::-webkit-scrollbar {
+    width: 13px;
+    height: 11px;
+}
+::-webkit-scrollbar-track {
+    background: #fafbfc;
+    margin: .3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 10px;
+}
+
 li {
     list-style: none;
 }
