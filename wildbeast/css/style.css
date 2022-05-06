@@ -333,6 +333,8 @@ p {
     grid-gap: 30px;
     padding: 30px;
     cursor: pointer;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(150px, 1fr));
 }
 
 /* Footer */
